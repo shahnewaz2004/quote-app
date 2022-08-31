@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "quote",
-    "slug": "quote",
+    "name": "QuotePlus",
+    "slug": "quoteplus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.shahnewaz.quoteplus",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.shahnewaz.quoteplus",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "2d079d0e-7514-4ccd-b0f7-87ecea609afc"
+      }
     }
   }
 }
