@@ -31,6 +31,7 @@ export const quotes = [
     "text": "Well begun is half done.",
     "author": "Aristotle"
   },
+  
   {
     "text": "Life is a learning experience, only if you learn.",
     "author": "Yogi Berra"
